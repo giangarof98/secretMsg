@@ -59,7 +59,7 @@
             const encrypted = btoa(input.value);
 
             const link = document.querySelector('#link-input')
-            link.value = `${window.location}${encrypted}`;
+            link.value = `${window.location}#${encrypted}`;
             link.select();
         })
     </script>
